@@ -1,4 +1,4 @@
-package RelationalLogical
+package ch11_RelationalLogical
 
 fun main() {
     //Or 연산
