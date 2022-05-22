@@ -20,6 +20,9 @@ fun main() {
                 break
             }
         }
+        if (i == 7){
+            println("기회없음")
+        }
     }
 
     println("정답은 $answer")

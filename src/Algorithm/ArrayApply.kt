@@ -9,21 +9,27 @@ fun main() {
     var min = 100
     var sum = 0
 
+//    for (j in array.iterator()){
+//        println("iterator = ${j}")
+//    }
+//    for(j in array.indices){
+//        println("indices = ${j}")
+//    }
+//    for(j in array){
+//        println("array = ${j}")
+//    }
+
     for (j in array){
         sum += j
-        if (array[0] > j){
+        if (min > j){
             min = j
-        }else{
-            min = array[0]
         }
 
-        if (array[0] < j){
+        if (max < j){
             max = j
-        }else{
-            max = array[0]
         }
-
     }
+
     println("max : $max min : $min sum : $sum")
 
 
